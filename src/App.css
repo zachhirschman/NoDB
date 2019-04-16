@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+img{
+  height:30%;
+  width:30%;
+}
+.buttonWrapper{
+  width:100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1395024/1360/923/m1/fpnw/wm1/mto4z4y0xaenpk1dhuer2vowgbwfh64s7vk8ev32hzeha0dmfjcigtzvxfredgxw-.jpg?1466765774&s=89086616ebc7c6d50a827b770d20da1f");
+  background-size: auto;
+  text-align: center;
+}
+.button {
+  border-radius: 4px;
+  background-color:#0099CC;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgba(0, 153, 204, 0.61)
+}
+button{
+  border:none;
+  border-radius: 3px;
+  background-color: #0099CC;
+  font-size: 14px;
+  padding:3px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.posts{
+  justify-content: center;
+  /* background-color: rgb(29, 28, 28); */
+}
+.AppContainer{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  display:flex;
+  background-color: rgb(27, 25, 25);
+  /* padding:10px; */
+}
+.spaceButton{
+  height: 23px;
+}
+.spacePeople{
+  color:red;
+}
+.NewsButton{
+  height:23px;
+}
+.weatherButton{
+  height: 23px;
+}
+.adviceButton{
+  height:23px;
+}
+.foobar{
+  padding-left:10px;
+  color:#0099CC;
+}

@@ -1,0 +1,8 @@
+.posts{
+    height: 100%;
+    background-color: rgba(100, 32, 32, 0.63);
+}
+.post >img{
+    width:40%;
+    height:40%;
+}

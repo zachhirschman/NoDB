@@ -1,0 +1,20 @@
+.formWrapper{
+    padding:5px;
+    width:570px;
+    display: flex;
+    background-color: #0099CC;
+    border-radius:4px;
+}
+input::placeholder{
+    color:white;
+}
+input{
+    justify-content: space-evenly;
+    padding:3px;
+    background-color:rgb(56, 116, 136);
+    border-style: none;
+    border-radius:px;
+}
+button{
+    border-radius:4px;
+}
